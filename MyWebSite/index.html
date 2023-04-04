@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hüseyin Karadana</title>
+     <link rel="shortcut icon" href="./img/hkLogo.png">
+     <!-- sayfaya görünüş verdiğim yer --> 
+     <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            scroll-behavior: smooth;
+        }
+
+
+        #NavBar{
+            background-color: #00ff00;
+            position: sticky;
+            top:0;
+        }
+
+
+        .logo{
+            width: 80px;
+            margin-left: 5%;
+        
+        }
+
+
+        .linkler{
+            overflow: hidden;
+            display: inline-block;
+            list-style: none;
+            position: absolute;
+            margin-top: 2.2%;
+            margin-left: 42%;
+        }
+
+        .linkler li{
+         
+           display: inline;
+           
+        }
+        .linkler li a{
+            padding: 5px;
+            font-style: oblique;
+            width: 60px;
+            font-size: 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+       .linkler li a:hover {
+        transition: .5s;
+        color: white;
+             background-color: #00ff00;
+             font-size: 1.5em;
+        }
+        .linkler li a:link{
+            transition: .4s;
+            color: #009900;
+            background-color: #00ff00;
+            
+        }
+        .webLink{
+            overflow: hidden;
+            
+            list-style: none;
+            display: inline-block;
+            position: absolute;
+            margin-top: 1.5%;
+            margin-left: 70%;
+            text-decoration: none;
+        }
+        .webLink li{
+            display: inline;
+        }
+        .webLink li a{
+            padding: 5px;
+        }
+        .webLink li a img{
+            
+            width: 30px;
+            border: 5px solid black;
+            background-color: black;
+            border-radius: 50px;
+            
+
+        }
+
+        .webLink li a img:hover{
+            transition: .5s;
+            width: 40px;
+            background-color: white;
+            border: 5px solid white;
+            
+        }
+        .webLink li a img:link{
+            transition: .4s;
+            
+            
+        }
+
+        #Anasayfa{
+            height: 500px;
+            background-color: #00ff00;
+        }
+        #Anasayfa h2{
+            
+            text-align: center;
+            font-size: 4em;
+        }
+       
+        #Anasayfa h3{
+            font-size: 2em;
+            text-align: center;
+        }
+        .selam {
+            margin-left: 40%;
+            display: inline-block;
+            text-align: center;
+            font-size: 4em;
+        }
+        #Anasayfa a{
+            text-decoration: none;
+            border: 2px solid black;
+            background-color: #009900;
+            font-size: 1.5em;
+            text-align: center;
+            margin-left: 45%;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        #Hakkında h2{
+             
+            margin-left: 4%;
+            margin-top: 4%;
+            font-size: 3em;
+        }
+
+        #Hakkında p{
+             margin-top: 3%;
+             margin-left: 8%;
+             margin-right: 5%;
+             font-size: 2em;
+         }
+
+         #Yetenekler{
+            
+            margin-left: 12%;
+            font-size: 1.85em;
+        
+         }
+         #Yetenekler li{
+            padding-top: 2%;
+            list-style:circle;
+            
+         }
+
+         #Projeler h2{
+            margin-left: 4%;
+            margin-top: 4%;
+            font-size: 3em;
+         }
+
+         #Sertifikalar h2{
+            margin-left: 4%;
+            margin-top: 4%;
+            font-size: 2em;
+         }
+         
+        
+     </style>
+</head>
+<body>
+    <div id="NavBar"><a href="#Anasayfa"><img src="./img/hkLogo.png" alt="Hüseyin Karadana Logo"  class="logo" ></a>
+        <ol class="linkler" >
+            <li><a href="#Anasayfa" class="li">Anasayfa</a></li>
+            <li><a href="#Hakkında" class="li">Hakkında</a></li>
+            <li><a href="#Projeler" class="li">Projeler</a></li>
+            <li><a href="#Sertifikalar" class="li">Sertifikalar</a></li>    
+            <li><a href="#Iletisim" class="li">İletişim</a></li>
+        </ol>
+        <ol class="webLink">
+            <li ><a href="https://www.linkedin.com/in/huseyin-karadana/" target="_blank" ><img src="./img/linkedin (1).png" alt="Linedln Linki"></a></li>
+            <li ><a href="https://github.com/HuseyinKARADANA" target="_blank" ><img src="./img/github (1).png" alt="Github Linki"></a></li>
+            <li ><a href="https://www.youtube.com/channel/UCFXdv9W03chf8S81u6TZpcQ" target="_blank" ><img src="./img/youtube.png" alt="YouTube Linki"></a></li>
+            <li ><a href="https://bionluk.com/huseyinkaradana" target="_blank" ><img src="./img/bionluk.png" alt="Bionluk Linki"></a></li>
+            <li ><a href="https://www.hackerrank.com/huseyinkaradana1" target="_blank" ><img src="./img/hackerrank.png" alt="Hackerrank Linki"></a></li>
+            
+        </ol>
+    </div>
+    <div id="Anasayfa" onclick="">
+        
+            <br><br><br><br><br>
+        <h2 onmouseover="selamla()" class="selam">Merhaba !</h2>
+        <h2>Ben Hüseyin Karadana</h2><br>
+        <h3>Ben Yazılım Mühendisliği Öğrencisiyim.</h3><br><br><br>
+        <a href="#Hakkında">Hakkında</a>
+        
+        
+    </div>
+    <hr onclick="arkaplan_degistir()"> <!-- sayfanın içinde ufak bir trick var ben kimim bölümünün üstündeki yeşil ile beyazı ayıran çizgiye tıklayınca renk değiştiriyor --> 
+    <div id="Hakkında">
+        <br>
+        <h2>Ben Kimim?</h2>
+        
+        <p>
+            &emsp; &emsp; Ben Hüseyin, 20 yaşındayım. Yazılım Mühendisliği alanında lisans okuyorum. Okul dışında İzmir'de yaşıyorum. Bir süredir 
+                java swing ile otomasyon sistemleri geliştirmekteyim. Birkaç freeleancer sitesinde  yazılım hizmetleri verdim. Sorunları analiz edip 
+                çözebilme yeteneğim var. Kendimi bu alanda başarmak için elimden gelen herşeyi yapmaya hazır görüyorum ve gelecekte daha başarılı olabilmek için elimden geldiğince çalışmaya hazırım.
+                <br><br>
+                Bilgimin olduğu teknolojiler: <br><br>
+                <ul id="Yetenekler">
+                    <li>Java</li>
+                    <li>Java AWT</li>
+                    <li>MySQL</li>
+                    <li>HTML 5</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>C#</li>
+                    
+                </ul>
+        </p>
+        <p>Teknolojilerine temel/orta düzey bilgiye sahip olduğumu düşünüyorum.</p><br><br><br><br><br><br><br><br><br>
+
+
+    </div>
+    <hr>
+    
+    <div id="Sertifikalar" >
+        <br>
+        <h2>Sertifikalar</h2>
+        <div style="display: flex;flex-wrap: wrap;margin-left: 4%;">
+            <!-- Her bir div yapısı ayrı bir Sertifika --> 
+            <div style="    min-width: 40%;width: 45%;background-color: #d0d8d6;margin-left: 1%;margin-top: 2%; ">
+                <div style="position: static;">
+                    <h2 style="text-align: center;margin-right: 3%;">Tüm Yönleriyle MySql 8 ve Veri Tabanı Programlama (2022)</h2>
+                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-1726af82-fd31-4acd-a028-64aaeb8f7081.jpg" target="_blank">
+                        <img src="./Sertifika img/mysql.png" alt="" width="640px" height="360px" style="margin-right: 1%;margin-top: 1%;margin-left: 1%;margin-bottom: 2%;">
+
+                    </a>
+                    
+                    
+                
+                </div>
+
+            </div>
+            <div style="    min-width: 40%;width: 45%;background-color: #d0d8d6;margin-left: 1%;margin-top: 2%; ">
+                <div style="position: static;">
+                    <h2 style="text-align: center;margin-right: 3%;">(42 Saat) Sıfırdan Komple Java Geliştirici Kursu</h2>
+                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-c159cc9a-5721-4a48-a103-116feaddcce3.jpg" target="_blank">
+                        <img src="./Sertifika img/java.jpg" alt="" width="640px" height="360px" style="margin-right: 1%;margin-top: 1%;margin-left: 1%;margin-bottom: 2%;">
+
+                    </a>
+                    
+                    
+                
+                </div>
+
+            </div>
+            <div style="    min-width: 40%;width: 45%;background-color: #d0d8d6;;margin-left: 1%;margin-top: 2%; ">
+                <div style="position: static;">
+                    <h2 style="text-align: center;margin-right: 3%;">Veri Yapıları ve Algoritmalar: Yazılım Mülakatları</h2>
+                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-bc000b2f-4d78-4caa-9d50-9def2161a76a.jpg" target="_blank">
+                        <img src="./Sertifika img/veri yapıları.jpg" alt="" width="640px" height="360px" style="margin-right: 1%;margin-top: 1%;margin-left: 1%;margin-bottom: 2%;">
+
+                    </a>
+                    
+                    
+                
+                </div>
+
+            </div>
+            
+            <div style="    min-width: 40%;width: 45%;background-color: #d0d8d6;margin-left: 1%;margin-top: 2%; ">
+                <div style="position: static;">
+                    <h2 style="text-align: center;margin-right: 3%;">Derinlemesine Java 1 : Nesne Yönelimli Programlama (OOP)
+                    </h2>
+                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-7fa16cbb-61f8-4f82-8db4-1ad21545ddea.jpg" target="_blank">
+                        <img src="./Sertifika img/oop.jpg" alt="" width="640px" height="360px" style="margin-right: 1%;margin-top: 1%;margin-left: 1%;margin-bottom: 2%;">
+
+                    </a>
+                    
+                    
+                
+                </div>
+
+            </div>
+            <div style="    min-width: 40%;width: 45%;background-color: #d0d8d6;;margin-left: 1%;margin-top: 2%; ">
+                <div style="position: static;">
+                    <h2 style="text-align: center;margin-right: 3%;">Çevik Proje Yönetimi</h2><br><br>
+                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-bc000b2f-4d78-4caa-9d50-9def2161a76a.jpg" target="_blank">
+                        <img src="./Sertifika img/cevikProjeYonetimi.png" alt="" width="640px" height="360px" style="margin-right: 1%;margin-top: 1%;margin-left: 1%;margin-bottom: 2%;">
+                        
+                    </a>
+                    
+                    
+                
+                </div>
+
+            </div>
+
+            <div style="    min-width: 40%;width: 45%;background-color: #d0d8d6;margin-left: 1%;margin-top: 2%; ">
+                <div style="position: static;">
+                    <h2 style="text-align: center;margin-right: 3%;">DevOps Çözümleri (Jenkins)</h2><br><br>
+                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-c159cc9a-5721-4a48-a103-116feaddcce3.jpg" target="_blank">
+                        <img src="./Sertifika img/devops.png" alt="" width="640px" height="360px" style="margin-right: 1%;margin-top: 1%;margin-left: 1%;margin-bottom: 2%;">
+
+                    </a>
+                    
+                    
+                
+                </div>
+
+            </div>
+
+        </div>
+
+
+       
+    </div>
+ <br><br>
+    <hr >
+    <div id="Iletisim" style="background-color: #d0d8d6;">
+
+       <br>      <br>
+         <h1 style="text-align: center; font-size: 2em;">İletişim</h1> 
+         <br><br><br>
+         <div style="display: flex;">
+            <div style="width: 40%;text-align: center; ">
+                <br><br><br><br>
+                <b><h2>Hadi Konuşalım ! <br>Bana projenden bahset...</h2></b><br><br><br><br><br><br>
+            </div>
+            <div style="width: 49%;padding-left: 20%; ">
+                <div ><img src="./img/location.png" alt="location img" width="30px" style="position: absolute;
+                    margin-top: 15px;">
+                    &emsp; &emsp;  <h2 style="display: inline-block;margin-top: 2.5%;margin-left: 20px;"> İzmir/Ödemiş</h2>
+                    <br>
+                    <img src="./img/mail.png" alt="Mail img" width="30px" style="position: absolute;
+                    margin-top: 15px;">
+                    &emsp; &emsp;  <h2 style="display: inline-block;margin-top: 2.5%;margin-left: 20px;"> <a href="mailto:huseyinkaradana35@gmail.com"  target="_blank" style="text-decoration: none;color: black;">huseyinkaradana35@gmail.com</a> </h2>
+                    <br>
+                    <img src="./img/linkedin (1).png" alt="Linedln img" width="30px" style="position: absolute;
+                    margin-top: 15px;">
+                    &emsp; &emsp;  <h2 style="display: inline-block;margin-top: 2.5%;margin-left: 20px;"> <a href="https://www.linkedin.com/in/huseyin-karadana/"  target="_blank" style="text-decoration: none;color: black;">in.com/huseyin-karadana</a> </h2>
+                    <br>
+                    <img src="./img/github (1).png" alt="Github img" width="30px" style="position: absolute;
+                    margin-top: 15px;">
+                    &emsp; &emsp;  <h2 style="display: inline-block;margin-top: 2.5%;margin-left: 20px;"> <a href="https://github.com/HuseyinKARADANA" target="_blank" style="text-decoration: none;color: black;">github.com/huseyin-karadana</a></h2>
+                    <br>
+                </div>
+
+            </div>
+
+         </div>
+            
+         
+
+    </div>
+    <!-- sayfa içi trikler için script --> 
+    <script>
+        
+        var sayac=0;
+        var colors=["#00ff00","#e9c46a","#90e0ef","#ffcfd2"];
+        function arkaplan_degistir(){
+            if(sayac>4){
+                sayac=0;
+            }
+            
+            document.getElementById("Anasayfa").style.background=colors[sayac];
+            sayac++;
+        }
+        var kontrol=0;
+        function selamla(){
+            if(kontrol==0){
+                alert("Sayfama hoşgeldiniz beni sosyal medya hesaplarımdan takip etmeyi unutmazsanız sevinirim. \n 😊");
+            }
+            kontrol++;
+        }
+    </script>
+</body>
+</html>
